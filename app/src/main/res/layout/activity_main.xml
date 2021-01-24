@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+    android:id="@+id/mainact_logo"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#fff"
+    android:fontFamily="@font/righteous_regular"
+    android:padding="10dp"
+    android:text="FITZY"
+    android:textAlignment="center"
+    android:textColor="#000"
+    android:textFontWeight="600"
+    android:textSize="24sp"
+        android:elevation="10dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/textView" />
+
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#20000000"
+ android:layout_below="@+id/mainact_logo" />
+    
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainact_logo"
+        android:id="@+id/mainact_frame"
+        />
+    
+    
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:id="@+id/mainact_bottomNav"
+    android:layout_gravity="bottom"
+    android:paddingTop="12dp"
+
+
+
+    app:menu="@menu/nav_menu"
+    app:itemIconTint="#000"
+    app:itemIconSize="16dp"
+    android:layout_alignParentBottom="true"
+    android:elevation="10dp"
+    android:background="#fff"/>
+
+
+
+</RelativeLayout>

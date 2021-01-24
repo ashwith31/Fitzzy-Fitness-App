@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/linear_layout_back_grad"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DoctorhospitalActivity">
+    <TextView
+        android:id="@+id/docact_logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:fontFamily="@font/righteous_regular"
+        android:padding="10dp"
+        android:text="FITZY"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textFontWeight="600"
+        android:textSize="24sp"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/docact_search"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_back"
+        android:layout_margin="10dp"
+        android:hint="search Hospital, Doctors near you ..."
+
+        android:layout_below="@+id/docact_logo"
+
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+
+        android:fontFamily="@font/josefin_regular"/>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/docact_tab"
+        app:tabIndicatorColor="#fff"
+        app:tabTextColor="#fff"
+        android:layout_below="@+id/docact_search"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent"
+        android:id="@+id/docact_viewpager"
+        android:layout_below="@+id/docact_tab"/>
+
+</RelativeLayout>

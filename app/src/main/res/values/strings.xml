@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">FitnessCapstone</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="basic_plan_week1_part1">You\'ll begin the program with a full-body training opens a new window.
+    Split,meaning you\'ll train all major bodyparts in each workout(as oppopsed to \"splitting up\" your training).
+        Train Three days this first week , performing just one exercise per bodypart in each session. It\'s important that you have a day of rest
+        between each workout to allow your body to recover; this makes training Monday, Wednesday  and Friday- with Saturday and Sunday being
+        rest days- a good approach.
+    </string>
+
+    <string name="basic_plan_week1_part2">The exercise listed in Week 1 are a collection of basic moves that are a collection of basic
+    moves that , while also used by advanced lifters, we feel are suitable for beginners as well. Notice we\'re not starting you off with only
+    machine exercises; handfull of free-weight movements are present right off the bat .Reason being,these are the exercises you need to master
+     for long-terms gains in muscular size and strength .So you may as well start learning them now. Carefully read all exercise
+    descriptions before attempting them yourself.</string>
+
+    <string name="basic_plan_week2">You\'re only week into the program, yet you\'ll begin to train different bodyparts on different
+    days with a two-day training split Opens a window. (meaning the entire body is trained over the course of two days, rather than one as in the
+        first week); the split include two upper-body days(Monday and Thursday) and two lower body days(Tuesday and Friday),
+    and each bodypart is trained twice . Wednesday,Saturday and Sunday will be your recovery days.</string>
+
+    <string name="basic_plan_week3">In the Third week of the program we step it up to a Three-day training split: Train all
+    \"pushing\" bodyparts (Chest,shoulders,triceps) on Day1; and abs on Day 2; and work your lower body (quads , glutes,hamstring,calves )
+    on Day 3. As in week 2, you train twice each body part twice a week, so you\'ll hit the gym six days
+    this week.</string>
+
+    <string name="basic_plan_week4">In the fourth and final week of the program , you\'ll train four days in a four-way split that hits
+     each body part just once (except calves and abs,which are each trained twice). Four-day splits are commonly among expercied lifters because
+    they involve training fewer bodypart(typically 2-3) per workout, which gives each muscle group ample attention and allows you to train
+     with higher volume.</string>
+
+
+    <string name="inter_plan_part1">Monday: Chest / Triceps
+        \n\n Tuesday: Back / Biceps
+        \n\n Wednesday : Shoulder /Traps
+        \n\n Thursday: Thigh / Calves / Abs
+        \n\n Friday : Chest / Triceps
+        \n\n Saturday: Back /Biceps
+        \n\n Sunday: Shoulder / Traps
+
+
+
+    </string>
+
+
+    <string name="inter_plan_part2">By doing 8-12 repititions for each set , you\'ll stimulate maximum hypertrophy.
+        However,this is based on the average person. Every person responds to weightlifting differently , some better, some
+        worse. Simply try this routine and then adjust it according to your own unique body type. \n\n
+
+        Warm-ups sets require at least 12 repetitions depending on the size of the muscle you are using.It is very important
+        to warm-up and stretch the muscle group that you\'ll be targeting before you start your routine . Failure to warm-up
+        and stretch properly before workouts can result in sever injury.
+
+
+
+
+    </string>
+
+    <string name="inter_plan_part3">
+
+        Unfortunately, the longer you weight lift, the slower your gain will be . Beginners get \"newbie gains\" when they first weight train
+        . These gains will typically last about 2-3 months. Newbie gains include rapid muscle gains and a rapid increase in strength.
+        \n\n
+        if one consumes suffecient food/proteins and has enough active rest,then they can expect to gain at least 5-10 pounds of muscle per month
+        in the \"newbie gain\" stage. The amount of muscle gained will vary among different body types. The muscle gained during this stage is permanent.
+    </string>
+
+    <string name="ad_plan_part1">
+
+        Week 1: Chest , Back , Shoulders , Legs , Biceps , Triceps \n\n
+        Week 3: Shoulder , Back , Chest , Legs , Triceps , Biceps \n\n
+    </string>
+
+    <string name="ad_plan_part2">
+        Day 1: Chest,Shoulders and Triceps \n\n
+        Day 2: Back and Biceps\n\n
+        Day 3: Legs\n\n
+        Day 4: Chest,Shoulders and Triceps\n\n
+        Day 5: Back and Bis\n\n
+        Day 6: Shoulders and Arms\n\n
+        Day 6: Rest\n\n
+
+    </string>
+
+
+</resources>

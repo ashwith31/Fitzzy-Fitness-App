@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.BasicPlanActivity">
+
+
+    <TextView
+        android:id="@+id/basact_logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:fontFamily="@font/righteous_regular"
+        android:padding="10dp"
+        android:text="FITZY"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textFontWeight="600"
+        android:textSize="24sp"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/basact_logo"
+        android:background="@drawable/linear_layout_back_grad"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:padding="20dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/josefin_bold"
+                android:textAlignment="center"
+                android:text="Beginner\'s Plan"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/basact_head1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+
+                    android:backgroundTint="#ffffff"
+                    android:padding="15dp"
+                    app:cardCornerRadius="10dp"
+                    android:background="#10ffffff"
+                    app:cardElevation="10dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_margin="10dp"
+
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/josefin_semi_bold_italic"
+                        android:text="Week 1:   Full-body split"
+                        android:background="@android:color/transparent"
+                        android:textSize="16sp"
+
+                        android:padding="10dp"
+
+
+                        android:textColor="#000"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/basact_head2"
+                    android:background="#30ffffff"
+                    android:backgroundTint="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:padding="15dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:fontFamily="@font/josefin_semi_bold_italic"
+                        android:text="Week 2:   Two-day split:  Upper body/Lower back"
+                        android:textSize="16sp"
+                        />
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/basact_head3"
+                    android:background="#25ffffff"
+                    android:backgroundTint="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:padding="15dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:fontFamily="@font/josefin_semi_bold_italic"
+                        android:text="Week 3:   Three-day split:  Push/Pull/Legs"
+                        android:textSize="16sp"
+                        />
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/basact_head4"
+                    android:background="#30ffffff"
+                    android:backgroundTint="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:padding="15dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/josefin_semi_bold_italic"
+                        android:textColor="#000"
+                        android:text="Week 4:   Four-day split:  Full body"
+                        android:textSize="16sp"
+                        />
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp">
+
+                <LinearLayout
+                    android:id="@+id/basact_linear1"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:background="#30ffffff"
+                    android:backgroundTint="#ffffff"
+                    app:cardCornerRadius="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:padding="15dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/josefin_bold"
+                        android:text="WEEK 1: WHOLE IN ONE"
+                        android:textAlignment="center"
+                        android:paddingTop="20dp"
+                        android:textColor="#000"
+                        android:paddingBottom="20dp"></TextView>
+
+                </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:background="#30ffffff"
+                        android:backgroundTint="#ffffff"
+                        app:cardCornerRadius="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:padding="15dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/josefin_regular"
+                            android:text="@string/basic_plan_week1_part1"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="20dp"
+                            android:textColor="#000"
+                            android:paddingBottom="20dp"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:background="#30ffffff"
+                        android:backgroundTint="#ffffff"
+                        app:cardCornerRadius="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:padding="15dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/josefin_regular"
+                            android:text="@string/basic_plan_week1_part2"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="20dp"
+                            android:textColor="#000"
+                            android:paddingBottom="20dp"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/basact_linear2"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:background="#30ffffff"
+                        android:backgroundTint="#ffffff"
+                        app:cardCornerRadius="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:padding="15dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/josefin_bold"
+                            android:text="WEEK 2: SPLIT DECISION"
+                            android:textAlignment="center"
+                            android:paddingTop="20dp"
+                            android:textColor="#000"
+                            android:paddingBottom="20dp"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:background="#30ffffff"
+                        android:backgroundTint="#ffffff"
+                        app:cardCornerRadius="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:padding="15dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/josefin_regular"
+                            android:text="@string/basic_plan_week2"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="20dp"
+                            android:textColor="#000"
+                            android:paddingBottom="20dp"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/basact_linear3"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:background="#30ffffff"
+                        android:backgroundTint="#ffffff"
+                        app:cardCornerRadius="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:padding="15dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/josefin_bold"
+                            android:text="WEEK 3: THREE ON THREE"
+                            android:textAlignment="center"
+                            android:paddingTop="20dp"
+                            android:textColor="#000"
+                            android:paddingBottom="20dp"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:background="#30ffffff"
+                        android:backgroundTint="#ffffff"
+                        app:cardCornerRadius="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:padding="15dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/josefin_regular"
+                            android:text="@string/basic_plan_week3"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="20dp"
+                            android:textColor="#000"
+                            android:paddingBottom="20dp"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/basact_linear4"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:background="#30ffffff"
+                        android:backgroundTint="#ffffff"
+                        app:cardCornerRadius="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:padding="15dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/josefin_bold"
+                            android:text="WEEK 4: TURNING UP THE VOLUME"
+                            android:textAlignment="center"
+                            android:paddingTop="20dp"
+                            android:textColor="#000"
+                            android:paddingBottom="20dp"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:background="#30ffffff"
+                        android:backgroundTint="#ffffff"
+                        app:cardCornerRadius="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:padding="15dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/josefin_regular"
+                            android:text="@string/basic_plan_week4"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="20dp"
+                            android:textColor="#000"
+                            android:paddingBottom="20dp"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ExercisePActivity">
+
+    <TextView
+        android:id="@+id/expact_logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:fontFamily="@font/righteous_regular"
+        android:padding="10dp"
+        android:text="FITZY"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textFontWeight="600"
+        android:textSize="24sp"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+
+
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_below="@+id/expact_logo"
+
+      android:id="@+id/expact_recycler"/>
+
+
+
+
+</RelativeLayout>

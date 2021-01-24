@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/linear_layout_back_grad"
+    tools:context=".Activities.AccountActivity">
+
+
+    <TextView
+        android:id="@+id/accact_logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:fontFamily="@font/righteous_regular"
+        android:padding="10dp"
+        android:text="FITZY"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textFontWeight="600"
+        android:textSize="24sp"
+        android:elevation="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accact_logo"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+
+        android:elevation="10dp"
+
+        android:src="@drawable/background"
+        app:civ_border_width="2dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card1"
+
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/profile_image"
+
+        android:backgroundTint="#ffffff"
+        android:padding="15dp"
+        app:cardCornerRadius="10dp"
+        android:background="#10ffffff">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/accact_rv"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/b34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit your Profile"
+        android:fontFamily="@font/josefin_bold"
+        android:layout_below="@+id/card1"
+        android:layout_marginTop="20dp"
+        android:onClick="editProfile"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button_back_white"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:id="@+id/acc_progress"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

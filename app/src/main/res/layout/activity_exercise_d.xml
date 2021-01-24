@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/linear_layout_back_grad"
+    tools:context=".Activities.ExerciseDActivity">
+
+
+    <TextView
+        android:id="@+id/exercixe_d_act_logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:fontFamily="@font/righteous_regular"
+        android:padding="10dp"
+        android:text="FITZY"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textFontWeight="600"
+        android:textSize="24sp"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        >
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:backgroundTint="#ffffff"
+        android:padding="15dp"
+        app:cardCornerRadius="10dp"
+        android:background="#10ffffff"
+        app:cardElevation="10dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/josefin_semi_bold_italic"
+            android:text="Chest"
+            android:background="@android:color/transparent"
+            android:textSize="16sp"
+            android:textAlignment="center"
+
+            android:padding="10dp"
+
+
+            android:textColor="#000"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xdact_rv1"
+        android:nestedScrollingEnabled="false"
+        android:layout_marginTop="20dp"
+
+        android:layout_below="@+id/exercixe_d_act_logo"/>
+
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:backgroundTint="#ffffff"
+            android:padding="15dp"
+            app:cardCornerRadius="10dp"
+            android:background="#10ffffff"
+            app:cardElevation="10dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/josefin_semi_bold_italic"
+                android:text="Biceps"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:textAlignment="center"
+
+                android:padding="10dp"
+
+
+                android:textColor="#000"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            android:id="@+id/xdact_rv2"
+
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/exercixe_d_act_logo"/>
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:backgroundTint="#ffffff"
+            android:padding="15dp"
+            app:cardCornerRadius="10dp"
+            android:background="#10ffffff"
+            app:cardElevation="10dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/josefin_semi_bold_italic"
+                android:text="Triceps"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:textAlignment="center"
+
+                android:padding="10dp"
+
+
+                android:textColor="#000"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/xdact_rv3"
+            android:nestedScrollingEnabled="false"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/exercixe_d_act_logo"/>
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:backgroundTint="#ffffff"
+            android:padding="15dp"
+            app:cardCornerRadius="10dp"
+            android:background="#10ffffff"
+            app:cardElevation="10dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/josefin_semi_bold_italic"
+                android:text="Shoulders"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:textAlignment="center"
+
+                android:padding="10dp"
+
+
+                android:textColor="#000"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/xdact_rv4"
+            android:nestedScrollingEnabled="false"
+
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/exercixe_d_act_logo"/>
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:backgroundTint="#ffffff"
+            android:padding="15dp"
+            app:cardCornerRadius="10dp"
+            android:background="#10ffffff"
+            app:cardElevation="10dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/josefin_semi_bold_italic"
+                android:text="Back"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:textAlignment="center"
+
+                android:padding="10dp"
+
+
+                android:textColor="#000"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:nestedScrollingEnabled="false"
+            android:id="@+id/xdact_rv5"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/exercixe_d_act_logo"/>
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:backgroundTint="#ffffff"
+            android:padding="15dp"
+            app:cardCornerRadius="10dp"
+            android:background="#10ffffff"
+            app:cardElevation="10dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/josefin_semi_bold_italic"
+                android:text="Legs"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:textAlignment="center"
+
+                android:padding="10dp"
+
+
+                android:textColor="#000"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:nestedScrollingEnabled="false"
+            android:id="@+id/xdact_rv6"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/exercixe_d_act_logo"/>
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:backgroundTint="#ffffff"
+            android:padding="15dp"
+            app:cardCornerRadius="10dp"
+            android:background="#10ffffff"
+            app:cardElevation="10dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/josefin_semi_bold_italic"
+                android:text="Abs"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:textAlignment="center"
+
+                android:padding="10dp"
+
+
+                android:textColor="#000"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:nestedScrollingEnabled="false"
+            android:id="@+id/xdact_rv7"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/exercixe_d_act_logo"/>
+
+
+
+
+</LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+</LinearLayout>

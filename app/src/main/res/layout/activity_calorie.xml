@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/linear_layout_back_grad"
+    tools:context=".Activities.CalorieActivity">
+
+
+    <TextView
+        android:id="@+id/calact_logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:fontFamily="@font/righteous_regular"
+        android:padding="10dp"
+        android:text="FITZY"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textFontWeight="600"
+        android:textSize="24sp"
+        android:elevation="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/josefin_bold"
+        android:layout_below="@+id/calact_logo"
+        android:layout_margin="20dp"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:padding="10dp"
+        android:id="@+id/calact_search"
+        android:background="@drawable/button_back_white"
+       android:hint="search food items.."/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/calact_rv"
+        android:layout_below="@+id/calact_search"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:id="@+id/calact_linear1"
+        >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+
+          <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Total calories  :"
+          android:fontFamily="@font/josefin_bold"
+          android:textColor="#000"
+              android:layout_weight="0.5"
+          android:textSize="18sp"
+          android:padding="20dp"
+          android:textAlignment="center"/>
+
+
+          <TextView
+              android:id="@+id/calact_cal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="0"
+              android:layout_weight="0.5"
+              android:fontFamily="@font/josefin_bold"
+              android:textColor="#000"
+              android:textSize="18sp"
+              android:padding="20dp"
+              android:textAlignment="center"/>
+
+
+      </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/calact_plan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="suggested plan"
+            android:layout_weight="0.5"
+            android:fontFamily="@font/josefin_bold"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:textAlignment="center"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="View Plan"
+            android:onClick="gotoplan"
+            android:background="#7F53AC"
+            android:paddingTop="10dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

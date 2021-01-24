@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/linear_layout_back_grad"
+    tools:context=".Activities.ActivityEdit">
+
+
+    <TextView
+        android:id="@+id/acceact_logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:fontFamily="@font/righteous_regular"
+        android:padding="10dp"
+        android:text="FITZY"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textFontWeight="600"
+        android:textSize="24sp"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+
+    <Button
+        android:id="@+id/acce_b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="Select a profile pic"
+        android:background="@drawable/button_back_white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="80dp"
+        android:onClick="selectImage"
+        android:layout_below="@+id/acceact_logo"/>
+
+    <EditText
+        android:id="@+id/acce_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_back"
+       android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Name"
+
+        android:layout_below="@+id/acce_b1"
+
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+
+        android:fontFamily="@font/josefin_regular"/>
+
+
+    <EditText
+        android:id="@+id/acce_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_back"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Email"
+
+        android:layout_below="@+id/acce_name"
+
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+
+        android:fontFamily="@font/josefin_regular"/>
+
+    <EditText
+        android:id="@+id/acce_age"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:imeOptions="actionSearch"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_back"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Age"
+
+        android:layout_below="@+id/acce_email"
+
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+
+        android:fontFamily="@font/josefin_regular"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_regular"
+        android:id="@+id/acce_p_text"
+        android:layout_below="@+id/acce_age"
+        android:textColor="#fff"
+        />
+
+
+
+    <Button
+        android:id="@+id/acce_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:background="@drawable/button_back_white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:onClick="updatepro"
+
+        android:layout_below="@+id/acce_p_text"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/acce_submit"
+        android:id="@+id/acce_progress"
+        android:layout_marginTop="20dp"
+        android:progressTint="#fff"
+        android:visibility="invisible"
+       />
+
+</RelativeLayout>

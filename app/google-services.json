@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "785385552347",
+    "firebase_url": "https://fitnesscapstone-21c21.firebaseio.com",
+    "project_id": "fitnesscapstone-21c21",
+    "storage_bucket": "fitnesscapstone-21c21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785385552347:android:c89d4af498f69975420ffe",
+        "android_client_info": {
+          "package_name": "com.example.fitnesscapstone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785385552347-o8q4menn6skkmeukflu40d9sed1pm4kb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitnesscapstone",
+            "certificate_hash": "e8999e09f0f840e01d1844dc1d537afb5872b2fc"
+          }
+        },
+        {
+          "client_id": "785385552347-m2sdqsk73csg25rjima29pfo104ba2g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsxWucOfM1_uUml0ZzUnqtHyvbgpeBhV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785385552347-m2sdqsk73csg25rjima29pfo104ba2g9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

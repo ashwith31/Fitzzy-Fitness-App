@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <font android:fontWeight="800"
+        android:font="@font/righteous_regular"
+
+        android:fontStyle="normal"/>
+    <font android:fontWeight="800"
+        android:font="@font/calistoga"
+        android:fontStyle="normal"/>
+
+    <font android:fontWeight="800"
+        android:font="@font/multiegular"
+        android:fontStyle="normal"/>
+</font-family>
